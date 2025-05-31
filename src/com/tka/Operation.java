@@ -71,4 +71,24 @@ public class Operation {
 		
 		return sb.toString();
 	}
+
+
+	public static int add(int i, int j) {
+		
+		return 0;
+	}
+	
+	public static int subtract(int i, int j) {
+		return 0;
+	}
+	
+	public static int multiply(int i, int j) {
+		return 0;
+	}
+
+	public static int divide(int i, int j) {
+		return 0;
+	}
+	
+	
 }
