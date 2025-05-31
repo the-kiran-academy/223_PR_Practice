@@ -83,7 +83,7 @@ public class Operation {
 	}
 	
 	public static int multiply(int i, int j) {
-		return 0;
+		return i*j;
 	}
 
 	public static int divide(int i, int j) {
