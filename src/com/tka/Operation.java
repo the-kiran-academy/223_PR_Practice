@@ -8,7 +8,23 @@ public class Operation {
 	
 	
 	public static String prime(int number) {
-		return null;
+		boolean prime=true;
+		  if (number <= 1) {
+	           prime = false;
+	        } else {
+	            for (int i = 2; i < number; i++) {
+	                if (number % i == 0) {
+	                    prime = false;
+	                    break;
+	                }
+	            }
+	        }
+		 
+		if (prime)
+	            return number + " is a prime number.";
+	        else
+	            return number + " is not a prime number.";
+	        
 	}
 
 	

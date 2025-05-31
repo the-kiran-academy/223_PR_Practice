@@ -7,6 +7,7 @@ public class Test {
 		Operation.prime(7);
 		Operation.palindrome(121);
 		Operation.fibonacci(8);
+		System.out.println(Operation.prime(10));
 
 	}
 
