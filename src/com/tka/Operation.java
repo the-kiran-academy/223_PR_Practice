@@ -79,7 +79,8 @@ public class Operation {
 	}
 	
 	public static int subtract(int i, int j) {
-		return 0;
+      
+		return i-j;
 	}
 	
 	public static int multiply(int i, int j) {
