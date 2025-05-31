@@ -4,12 +4,11 @@ public class Operation {
 	
 	public static String evenOdd(int number) {
 		if (number % 2 == 0) {
-            System.out.println(number + " is Even.");
+           return ""+ number +" is even"; 
         } else {
-            System.out.println(number + " is Odd.");
+        	return ""+ number +" is odd"; 
         }
 
-       return null;
     }
 	
 	
