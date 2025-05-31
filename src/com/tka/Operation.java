@@ -87,7 +87,7 @@ public class Operation {
 	}
 
 	public static int divide(int i, int j) {
-		return 0;
+		return i/j;
 	}
 	
 	
